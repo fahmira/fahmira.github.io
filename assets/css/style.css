@@ -1,0 +1,83 @@
+/* 
+* Theme Name: fahmira
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Assistant', sans-serif;
+    font-size: 14px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+}
+
+.home{
+    background-color: #030303;
+}
+.home .container{
+    height: 100vh;
+}
+.home-intro{
+    margin: auto;
+    text-align: center;
+}
+
+.profile-img img{
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid #C0B09B;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0 25px 0 rgba(0,0,0,.1);
+    -moz-box-shadow: 0 0 25px 0 rgba(0,0,0,.1);
+    box-shadow: 0 0 25px 0 rgba(0,0,0,.1);
+}
+.title h2{
+    font-size: 50px;
+    cursor: pointer;
+    color: #C0B09B;
+}
+
+
+.title h2:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: relative;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.title h2:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+
+.title h4 {
+    font-size: 22px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+
+.social-links ul li {
+    list-style-type: none;
+    display: block;
+    width: calc(100% / 3);
+    float: left;
+}
+
+.social-links ul li a {
+    font-size: 24px;
+    color: #C0B09B;
+}
